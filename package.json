@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "bs": "npm run build --watch && serve -l 3230 -s dist",
-    "deploy-dev": "npm run build; sls deploy; aws cloudfront create-invalidation --distribution-id E2JLNJ2JQ07IGL --paths \"/*\"",
+    "deploy-dev": "npm run build; sls deploy; aws cloudfront create-invalidation --distribution-id E18HKMVW5AVHB2 --paths \"/*\"",
     "push": "git add . && git commit -m \"Changes\" && git push",
     "srv": "serve -s dist"
   },
