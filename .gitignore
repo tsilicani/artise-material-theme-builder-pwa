@@ -3,6 +3,7 @@ node_modules
 /dist
 .serverless
 /serverless.yml
+/readme.txt
 
 # local env files
 .env.local
